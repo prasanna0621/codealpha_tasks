@@ -29,7 +29,7 @@ function decrypt(text) {
 const db = mysql.createConnection({
     host: "localhost",
     user: "root",
-    password: "root@123",  // ⚠ use YOUR root password
+    password: "Pps@137.",  // ⚠ use YOUR root password
     database: "secure_cloud_db"
 });
 

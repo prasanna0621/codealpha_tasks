@@ -2,7 +2,8 @@ from pymongo import MongoClient
 import hashlib
 
 # 🔹 Paste your working connection string here
-connection_string = "mongodb+srv://internUser:internUser123@cluster0.ga41zbr.mongodb.net/?appName=Cluster0"
+connection_string = "mongodb+srv://<username>:<password>@cluster0.ga41zbr.mongodb.net/?appName=Cluster0"
+#Replace username and password with your original ones 
 
 client = MongoClient(connection_string)
 db = client["internship_db"]
